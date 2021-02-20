@@ -1,0 +1,237 @@
+
+/* LG Device :992px. */
+@media(max-width: 1900px){
+    .home-text h1 {
+        padding-right: 220px!important;
+        
+    }
+}
+@media(max-width: 1640px){
+    .home-text h1 {
+        padding-right: 0px!important;
+        
+    }
+}
+@media(max-width: 1440px){
+    .home-text h1 {
+        font-size: 60px;
+        
+    }
+}
+@media(max-width: 1199px) {
+    .home-text h1 {
+        font-size: 60px;
+        
+    }
+    .pad-fluid {
+        padding: 40px 50px;
+    }
+    .stick.header{
+        padding: 10px 50px;
+    }
+    .team-socil ul {
+        padding: 0 15px!important;
+    }
+}
+/* MD Device :768px. */
+@media (max-width: 991px) {
+    .circle {
+        height: auto;
+    }
+    .team-socil ul {
+        padding: 0px!important;
+    }
+    .team-socil ul li{
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+    }
+    .team-socil ul li a i{
+        font-size: 20px;
+    }
+    .shap-1 {
+        bottom: -4%;
+        left: 41%;
+        z-index: 1;
+    }
+    .abt-2 {
+        top: 40%;
+        left: 4%;
+    }
+    .abt-3 {
+        right: 10%;
+        top: 40%;
+    }
+    .overlay h3 {
+        font-size: 16px;
+    }
+    .overlay h4 {
+        font-size: 16px;
+    }
+    .socil-nav ul li{
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+        text-align: center;
+        background-color: rgb(0, 174, 255);
+        margin: 0 10px;
+    
+    }
+    .socil-nav ul li a i{
+        font-size: 20px;
+        color: white;
+        -webkit-transition: .5s all ease-in-out;
+        transition: .5s all ease-in-out;
+    
+    }
+}
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .team-socil{
+        left: 50%;
+        transform: translate(-50% ,50px);
+    }
+    .team-box:hover .team-socil{
+        left: 50%;
+        transform: translate(-50% ,0px);
+    }
+    .team-box{
+        text-align: center;
+    }
+    .team-socil ul li{
+        width: 40px;
+        height: 40px;
+        line-height: 45px;
+    }
+    .team-socil ul li a i{
+        font-size: 25px;
+    }
+    .port-nav li {
+        font-size: 15px;
+        display: inline-block;
+        margin:5px 10px!important;
+    }
+    .shap-2 {
+        bottom: -3%;
+        left: 0%;
+    }
+    .box-icon {
+
+        margin: auto;
+    }
+    .about-box{
+        text-align: center;
+    }
+    .our-box-2{
+        margin-bottom: 40px;
+    }
+    .shap-1 {
+        bottom: -1%;
+        left: 62%;
+        z-index: 1;
+    }
+    .about-me-img {
+        margin-bottom: 50px;
+    }
+    
+}
+/* SM Small Device :550px. */
+@media only screen and (max-width: 767px) {
+    .col-sm-5{
+        display: none;
+    }
+    .foot li a{
+        font-size: 17px;
+    }
+    .f-logo{
+        text-align: center;
+    }
+    .hello{
+        padding: 20px 0;
+    }
+    .hello img{
+    
+        width: 150px;
+}
+.nav-left li a{
+    font-size: 18px;
+}
+#scene-1 {
+    left: 20%;
+    top: 21%;
+}
+#scene-2{
+    right: 78%;
+    bottom: 25%;
+}
+#scene-3 {
+    right: 25%;
+    bottom: 49px;
+}
+#scene{
+    right: 50%;
+    top: 5%;
+    
+}
+#status {
+    width: 300px;
+    height: 300px;
+
+}
+.right-item h3 {
+    font-size: 30px;
+    
+}
+.item span {
+    font-size: 40px;
+}
+.youtube span {
+    padding: 10px 10px;}
+
+    input[type="email"] {
+        margin-left: -5px;
+        margin-bottom: 14px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+    .about-text p {
+        font-size: 16px;
+    }
+    .icon-text h3 {
+        font-size: 35px;
+    }
+    .sp .btn1 {
+        padding: 15px 0px!important;
+        margin-right: 0px;
+        transition: .5s all ease-in-out;
+        border: 2px solid #6928d9;
+        font-size: 18px;
+    }
+ .btn1 {
+        font-size: 18px;
+    }
+
+
+}
+@media only screen and (max-width: 500px) {
+    #scene, #scene-1, #scene-2, #scene-3{
+        display: none;
+    }
+    .abt-1,
+    .abt-2,
+    .abt-3,
+    .spap,
+    .shap-1,
+    .shap-2,
+    .shap-3,
+    .shap-4,
+    .shap-5{
+        display: none;
+    
+    }
+    .pad-fluid {
+    padding: 38px 13px;
+}
+}

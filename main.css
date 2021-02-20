@@ -1,0 +1,131 @@
+/* ==========================================================================
+    Template Name: Morix - Sass & App Landing HTML5 Template
+    Template URI: http://dreamroadtech.com/templates/morix-preview/
+    Description: Morix - Sass & App Landing HTML5 Template
+    Author: dreamroadtech
+    Author URI: http://www.dreamroadtech.com
+    Version: 1.0
+  ========================================================================== */
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Header css
+3. Home css
+4. Features css
+5. Developer css
+6. History css
+7. Process css
+8. Action css
+9. Software css
+10. Price css
+11. Testimonial css
+12. News css
+13. Blog page css 
+14. Blog-Side-bar css
+15. Footer css
+*/
+
+/* ==========================================================================
+    Google Font
+    ========================================================================== */
+    @import url('https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:300,400,500,700&display=swap');
+
+    /*...................................
+        1. Template default css
+        ................................... */
+    
+    html {
+        overflow-x: hidden;
+    
+    }
+        
+    body {
+        font-family: 'Karla', sans-serif;
+        overflow-x: hidden;
+        font-size: 14px;
+    }
+    
+    a,
+    .button {
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+    }
+    
+    a:focus,
+    .btn:focus {
+        text-decoration: none;
+        outline: none;
+        box-shadow: none;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        color: #131943;
+    }
+    
+    p {
+        font-family: 'Karla', sans-serif;
+        font-size: 14px;
+        line-height: 32px;
+        color: #566977;
+    }
+    
+    ul {
+        list-style: outside none none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    li {
+        list-style: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    li a {
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        color: inherit;
+    }
+    
+    a {
+        color: inherit;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .form-control:focus {
+        outline: 0;
+        box-shadow:none;
+    }
+    
+    .icon {
+        height: 65px;
+        width: 65px;
+        text-align: center;
+        border-radius: 20px 60px 60px 60px;
+        color: #ffffff;
+        transition: .3s;
+    }
+    
+    .icon:hover {
+        box-shadow: 0px 7px 12px -5px #08d26f, -5px 5px 45px 30px rgba(0,0,0,0);
+        transition: .3s;
+    }
+    
+    /* ==========================================================================
+        Author's custom styles
+      ========================================================================== */
